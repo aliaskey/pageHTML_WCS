@@ -1,0 +1,26 @@
+h1{
+font-size: 30px;
+text-align: center;
+color: #674188
+}
+h2{
+    text-align: center;
+}
+p{
+font-size: 20px;
+text-align: left;
+font-family: Helvetica, sans-serif;
+}
+img{
+text-align: center;
+}
+body {
+background-color: #C3ACD0;
+       
+}
+.centered-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50vh; /* Ajustez la hauteur en fonction de vos besoins */
+    }
