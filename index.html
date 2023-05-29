@@ -2,16 +2,31 @@
 <html>
 <head>
   <link rel="stylesheet" href="style.css"/>
-  <title>ma premiere page html</title>
+  <title>Le titre qui apparaîtra dans le navigateur</title>
   <meta charset="UTF-8">
 </head>
+
 <body>
-<h1>Schtroumpf alors !</h1>
-<p></p>
-<h2>Et voilà ! On a bien bossé, on peut faire une pause de 5mn</h2>
-<h2>Lala la schtroumpf lala... </h2>
-<div class="centered-img">
-<img src="schroumph.png"> 
-</div>      
-</body> 
-</html> 
+  <h1>Chrysanthe !!!!</h1>
+  <p>Que les cadeaux pleuvent et le bonheur abreuve cette nouvelle année de ta vie ! Ô merveilleuse personne, accepte ce modeste SMS en gage de l’amitié de ta meilleure copine. Heureux anniversaire.</p>
+  <h2>Je te souhaite le meilleur anniversaire du monde !</h2>
+  <p>En cette si belle journée, celle de ton anniversaire. Merci pour ton amitié sans faille. À très bientôt pour de nouvelles aventures ensemble. En attendant, je sors le champagne pour célébrer une nouvelle année pleine de joie et de bonne santé !</p>
+
+  <div id="animation-container"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.5/lottie.min.js"></script>
+  <script>
+    var animationContainer = document.getElementById('animation-container');
+    var animationData = {
+      container: animationContainer,
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'https://assets2.lottiefiles.com/packages/lf20_bfwzjr7h.json'
+    };
+    var animation = lottie.loadAnimation(animationData);
+  </script>
+
+  <h2>Est-ce que tu as fini tes quêtes de la semaine ?</h2>
+</body>
+</html>
