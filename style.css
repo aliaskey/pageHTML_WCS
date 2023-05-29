@@ -32,3 +32,17 @@ background-color: #C3ACD0;
       align-items: center;
       height: 50vh; /* Ajustez la hauteur en fonction de vos besoins */
     }
+
+  blockquote {
+  font-style: italic;
+  font-size: 50px;
+  color: #ff00ff;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  }
