@@ -4,16 +4,20 @@ text-align: center;
 color: #674188
 }
 h2{
-    text-align: center;
+   
+  color: yellow; /* Code couleur pour le jaune */
+  text-align: center;
 }
 h3 {
   color: #ff1493; /* Code couleur pour le rose foncé */
 text-align: center;
+    font-weight: bold;
 }
 p{
 font-size: 20px;
 text-align: center;
 font-family: Helvetica, sans-serif;
+color: turquoise; 
 }
 img{
 text-align: center;
