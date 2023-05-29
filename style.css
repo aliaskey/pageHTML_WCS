@@ -6,9 +6,13 @@ color: #674188
 h2{
     text-align: center;
 }
+h3 {
+  color: #ff1493; /* Code couleur pour le rose foncé */
+text-align: center;
+}
 p{
 font-size: 20px;
-text-align: left;
+text-align: center;
 font-family: Helvetica, sans-serif;
 }
 img{
